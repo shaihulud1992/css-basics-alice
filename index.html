@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Алиса в стране чудес</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Алиса в Стране чудес</h1>
+      <p>Материал из Википедии &mdash; свободной энциклопедии</p>
+    </header>
+
+    <hr />
+
+    <figure>
+      <img src="alice.jpg" alt="Безумное чаепитие" />
+      <figcaption>Безумное чаепитие. Иллюстрация Дж. Тенниела</figcaption>
+    </figure>
+
+    <hr />
+
+    <nav>
+      <h2>Содержание</h2>
+      <ol>
+        <li><a href="#CreationHistory">История создания</a></li>
+        <li><a href="#Plot">Сюжет</a></li>
+        <li><a href="#Characters">Персонажи</a></li>
+        <li>
+          <a href="#Reviews">Критика</a>
+          <ol>
+            <li><a href="#BritishReviews">Отзывы британских критиков</a></li>
+            <li><a href="#WorldReviews">Отзывы во всем мире</a></li>
+            <li><a href="#RussianReviews">Отзывы в России</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+
+    <hr />
+
+    <main>
+      <section id="CreationHistory">
+        <h3>История создания</h3>
+        <p>
+          Первая публикация <cite>Алисы</cite> состоялась
+          <time datetime="1865-07-04">4 июля 1865 года</time>, ровно через три
+          года после того, как Его Преподобие Чарльз Лютвидж Доджсон и Его
+          Преподобие Робинсон Дакворт на лодке поднялись вверх по Темзе в
+          обществе трёх девочек.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="Plot">
+        <h3>Сюжет</h3>
+        <p>
+          Алиса бежит за Белым Кроликом и внезапно проваливается в глубокую
+          кроличью нору, которая выводит её в загадочную комнату с множеством
+          закрытых дверей.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="Characters">
+        <h3>Персонажи</h3>
+        <p>
+          Ввиду разнообразности вариантов перевода каждого имени персонажа ниже
+          представлена таблица с указанием различных переводов
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Демурова</th>
+              <th>Оригинал</th>
+              <th>Набоков</th>
+              <th>Заходер</th>
+              <th>Щербаков</th>
+              <th>Яхнин</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Алиса</td>
+              <td>Alise</td>
+              <td>Аня</td>
+              <td>Алиса</td>
+              <td>Алиса</td>
+              <td>Алиса</td>
+            </tr>
+            <tr>
+              <td>Болванщик</td>
+              <td>Hatter</td>
+              <td>Шляпник</td>
+              <td>Шляпа</td>
+              <td>Шляпочник</td>
+              <td>Котелок</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr />
+
+      <section id="Reviews">
+        <h3>Критика</h3>
+        <p>
+          Большая часть критических отзывов на книгу положительны, хотя иногда
+          критикуют (но чаще хвалят) странный непредсказуемый сюжет.
+        </p>
+        <section id="BritishReviews" class="subsection">
+          <h4>Отзывы британских критиков</h4>
+          <p>
+            В Великобритании первые отзывы на книгу были весьма критичны: за
+            редкими исключениями рецензенты отказывались видеть хоть какой-то
+            смысл в &laquo;блужданиях&raquo; Алисы. Отношение критики изменилось
+            лишь спустя несколько десятилетий.
+          </p>
+        </section>
+        <section id="WorldReviews" class="subsection">
+          <h4>Отзывы во всем мире</h4>
+          <p>
+            В <time datetime="1931">1931</time> <cite>Алиса</cite> попала в
+            список запрещенных книг в китайской провинции Хунань, поскольку
+            <q>животные не должны говорить человеческим голосом</q> и
+            <q>нельзя показывать животных и людей равными</q>.
+          </p>
+        </section>
+        <section id="RussianReviews" class="subsection">
+          <h4>Отзывы в России</h4>
+          <p>Отзыв из журнала <cite>Женское образование</cite>:</p>
+          <blockquote>
+            Есть книги, о которых и десяти слов сказать не хочется, до того они
+            ниже всякой критики. Лежащее перед нами издание принадлежит именно к
+            их числу. Бессодержательнее и нелепее этой сказки или, вернее,
+            просто небывальщины (так как в создании сказки предполагается
+            участие фантазии) трудно себе что-нибудь представить. Советуем всем
+            матерям пройти мимо этого никуда не годного измышления, не
+            приостанавливаясь ни на минуту.
+          </blockquote>
+        </section>
+      </section>
+    </main>
+
+    <hr />
+
+    <form name="AliceForm" method="get" action="somewhere.php">
+      <p>
+        <label
+          >Имя: <input type="text" name="userName" placeholder="Алиса"
+        /></label>
+      </p>
+      <p>
+        <label
+          ><input type="radio" name="bookTitle" value="LookingGlass" />в
+          Зазеркалье</label
+        ><br />
+        <label
+          ><input type="radio" name="bookTitle" value="Wonderland" />в Стране
+          чудес</label
+        >
+      </p>
+      <p><textarea name="userComment" placeholder="Комментарий"></textarea></p>
+      <p>
+        <label
+          ><input
+            type="checkbox"
+            name="isSigned"
+            value="signUp"
+            checked
+          />Подписаться на новые комментарии</label
+        ><br />
+      </p>
+      <p><input type="submit" value="Отправить" /></p>
+    </form>
+  </body>
+</html>
